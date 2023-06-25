@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(37, 62, 60);
+}
+h2{
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+   text-align: center;
+}
+p.abc{
+    color: rgb(167, 187, 223);
+    font-family: inherit;
+    font-size: 20px;
+}
+
+p.xyz{
+    color: rgb(176, 242, 220);
+    font-family: initial;
+    font-size: 20px;
+}

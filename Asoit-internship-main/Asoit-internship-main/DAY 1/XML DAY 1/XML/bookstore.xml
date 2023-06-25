@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bookstore>
+<book category="COOKING">
+<title lang="en">Everyday Italian</title>
+<author>Giada De Lautrentiis</author>
+<year>2005</year>
+<price>30.00</price>
+</book>
+<book category="CHILDERN">
+<title lang="en">Harry Poter</title>
+<author>J K. ROWLING</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book category="WEB">
+<title lang="en">learning XML</title>
+<author>Erik</author>
+<year>2023</year>
+<price>40.00</price>
+</book>
+</bookstore>

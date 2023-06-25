@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <center>
+        <form>
+            <b style="font-size: 30px;">
+                Register here
+            </b>
+            <br><br>
+
+            <b><label for="firstname">First name :</label></b>
+            <input type="text" id="firstname" name="firstname"  required>
+           <br><br>
+
+            <b><label for="lastname">Last name :</label></b>
+            <input type="text" id="lastname" name="lastname"  required >
+            <br><br>
+
+            <b><label>Gender :</label></b>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+
+            <b><label for="phone">Mobile number :</label></b>
+            <input type="tel" id="phone" name="phone"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            <br><br>
+
+            <b><label>Email :</label></b>
+            <input type="email" id="email" name="email" ">
+            <br><br>
+
+            <b><label>Password :</label></b>
+            <input type="password" name="psw" placeholder="Enter Password" required>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <br><br>
+        </form>
+    </center>
+    </body>
+</html>
