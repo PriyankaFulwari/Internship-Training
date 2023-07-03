@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="color: aquamarine; background-color:greenyellow; width:90px;height:20px;padding:40px; ">
+Click and hold</div>
+
+<script>
+function mDown(obj) {
+  obj.style.backgroundColor = "#998874";
+  obj.innerHTML = "get me realse";
+}
+
+function mUp(obj) {
+  obj.style.backgroundColor="#D94AAA";
+  obj.innerHTML="why realse meee";
+}
+
+</script>
+</body>
+</html> 

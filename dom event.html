@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>DOM Event</p>
+    <h2 onclick="this.innerHTML='Dhruv'">click to show my name</h2>
+
+    <!-- using function -->
+
+        <h2  onclick="showname(this)">click to show my name using function</h2>
+
+        <!-- <h2 class="demo"></h2> -->
+<script>
+    function showname(ob){
+        ob.innerHTML="Dhurv Ahir";
+    }
+
+    // document.getElementsByClassName('demo').innerHTML="hello dhurv"
+</script>
+</body>
+</html>
